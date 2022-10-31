@@ -4,7 +4,13 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <RepositoryUrl>https://github.com/2DeadPixels/</RepositoryUrl>
+	<RepositoryUrl>https://github.com/2DeadPixels/RandomNumberator</RepositoryUrl>
+	<OutputType>Library</OutputType>
+	<PackageId>2DeadPixels.RandomNumberator</PackageId>
+	<Version>1.2.1</Version>
+	<Authors>Patrick Schaller</Authors>
+	<Company>2 Dead Pixels Company Inc</Company>
+	<PackageDescription>This package for testing...!</PackageDescription>
   </PropertyGroup>
 
 </Project>
