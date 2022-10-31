@@ -37,4 +37,4 @@ jobs:
     - name: Package nuget
       run: dotnet pack --configuration release
     - name: Push generated package to GitHub registry
-      run: dotnet nuget push ./package/*.nupkg  --source "github"   --api-key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 
+      run: dotnet nuget push ./package/*.nupkg  --source "github"   --api-key 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 
