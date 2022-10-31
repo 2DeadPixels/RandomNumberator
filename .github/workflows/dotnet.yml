@@ -39,7 +39,7 @@ jobs:
     - name: Nuget Configure
       run: dotnet nuget add source --username patrickschaller --password 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 --store-password-in-clear-text --name github https://nuget.pkg.github.com/2DeadPixels/index.json
     - name: Nuget Publish - GitHub
-      run: dotnet nuget push ./package/*.nupkg  --api-key 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 --source "github" --skip-duplicate
+      run: dotnet nuget push ./*.nupkg  --api-key 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 --source "github" --skip-duplicate
    # - name: Push generated package to GitHub registry
    #   run: dotnet nuget push ./package/*.nupkg --api-key ${{ github.token }} --source ${{env.REPOSITORY_URL}}
       # --source https://nuget.pkg.github.com/2DeadPixels/index.json   --api-key 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 
